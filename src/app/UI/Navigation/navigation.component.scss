@@ -1,0 +1,18 @@
+@import '../../SCSS/colors';
+
+.header{
+  width: 100%;
+  height : 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $black-v2;
+  color : $black-v0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.arrow{
+  font-size: 30px;
+}

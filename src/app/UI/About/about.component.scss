@@ -1,0 +1,54 @@
+@import '../../SCSS/colors';
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-frame{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $black-v2;
+  width: 250px;
+  min-height: 285px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.img{
+  width: 260px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.name{
+  width: 250px;
+  display: flex;
+  color : white;
+  justify-content: center;
+}
+
+.profile{
+  color : lighten($black-v0,10%);
+}
+
+.description{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  color : lighten($black-v0,50%);
+  line-height: 1.5;
+}
+
+.dummy{
+  width: 100%;
+  height: 40px;
+}
