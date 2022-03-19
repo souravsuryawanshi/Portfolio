@@ -11,4 +11,20 @@ export class NavigationComponent {
   navigateToHome() {
     this._route.navigateByUrl('');
   }
+
+  navigateToEducation() {
+    this._route.navigateByUrl('education');
+  }
+
+  navigateToProjects() {
+    this._route.navigateByUrl('projects');
+  }
+
+  navigateToExperience() {
+    this._route.navigateByUrl('experience');
+  }
+
+  navigateToSkills() {
+    this._route.navigateByUrl('skills');
+  }
 }

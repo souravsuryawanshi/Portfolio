@@ -1,9 +1,33 @@
 <header>
   <nav class="header">
-    <app-links class="arrow"> > </app-links>
-    <app-links>
-      Theme Switch
-      <app-links> Dots </app-links>
+    <app-links class="arrow"
+     (out)="navigateToHome()">
+     >
     </app-links>
+
+    <div class="pages">
+      <app-links  (out)="navigateToEducation()">
+        Education
+      </app-links>
+      <app-links  (out)="navigateToSkills()">
+        Technical Skills
+      </app-links>
+      <app-links  (out)="navigateToProjects()">
+        Projects
+      </app-links>
+      <app-links  (out)="navigateToExperience()">
+        Experience
+      </app-links>
+    </div>
+
+    <div class="corner">
+      <app-links>
+      Theme Switch
+      </app-links>
+      <app-links>
+      Dots
+      </app-links>
+    </div>
+
   </nav>
 </header>
