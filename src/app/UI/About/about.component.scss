@@ -1,5 +1,6 @@
 @import '../../SCSS/colors';
 .about{
+  margin-top: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -31,10 +32,13 @@
   display: flex;
   color : white;
   justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 5px;
 }
 
 .profile{
-  color : lighten($black-v0,10%);
+  color : lighten($black-v0,20%);
+  margin-bottom: 10px;
 }
 
 .description{
@@ -44,7 +48,8 @@
   padding-left: 10px;
   padding-right: 10px;
   font-size: 14px;
-  color : lighten($black-v0,50%);
+   color : lighten($black-v0,60%);
+
   line-height: 1.5;
 }
 

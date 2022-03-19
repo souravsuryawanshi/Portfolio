@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: $black-v2;
-  color : $black-v0;
+  color : lighten($black-v0,60%);
   padding-left: 15px;
   padding-right: 15px;
 }
