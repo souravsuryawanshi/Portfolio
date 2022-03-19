@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navigation.component.scss'],
 })
 export class NavigationComponent {
+  toggle: boolean = false;
   constructor(private _route: Router) {}
   navigateToHome() {
     this._route.navigateByUrl('');
@@ -30,5 +31,9 @@ export class NavigationComponent {
 
   navigateToContact() {
     this._route.navigateByUrl('contact');
+  }
+
+  onBurgerClick() {
+    this.toggle = !this.toggle;
   }
 }

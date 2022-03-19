@@ -5,7 +5,7 @@
      >
     </app-links>
 
-    <div class="pages">
+    <div *ngIf=toggle class="pages">
       <app-links  (out)="navigateToEducation()">
         Education
       </app-links>
@@ -27,7 +27,7 @@
     </div>
 
     <div>
-      <app-burger></app-burger>
+      <app-burger (out)="onBurgerClick()"></app-burger>
     </div>
 
   </nav>
