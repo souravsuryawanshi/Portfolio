@@ -10,3 +10,4 @@ export * from './Refresh/refresh.component';
 export * from './Links/links.component';
 export * from './Education/education.component';
 export * from './Experience/experience.component';
+export * from './Navigation/Burger/burger.component';

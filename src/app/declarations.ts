@@ -16,6 +16,7 @@ import {
   LinksComponent,
   EducationComponent,
   ExperienceComponent,
+  BurgerComponent,
 } from './UI';
 
 import { DataService } from './Services/data.service';
@@ -34,6 +35,7 @@ export const component = [
   LinksComponent,
   EducationComponent,
   ExperienceComponent,
+  BurgerComponent,
 ];
 
 export const imports = [BrowserModule, FormsModule, AppRoutingModule];

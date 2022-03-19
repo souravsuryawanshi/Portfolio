@@ -17,14 +17,6 @@
   font-size: 30px;
 }
 
-.corner{
-  display: flex;
-  justify-content: space-between;
-  width: 160px;
-}
-
-
-
 .pages{
   background-color: $black-v2;
   width: 100px;
@@ -38,5 +30,6 @@
   right: 0;
   z-index: 10;
   padding-left: 10px;
+  border-radius: 10px;
   // display:none;
 }
