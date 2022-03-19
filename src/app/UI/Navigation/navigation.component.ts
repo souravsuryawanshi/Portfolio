@@ -31,6 +31,7 @@ export class NavigationComponent {
 
   navigateToContact() {
     this._route.navigateByUrl('contact');
+    this.toggle = false;
   }
 
   onBurgerClick() {
