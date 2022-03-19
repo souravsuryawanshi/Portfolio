@@ -27,4 +27,8 @@ export class NavigationComponent {
   navigateToSkills() {
     this._route.navigateByUrl('skills');
   }
+
+  navigateToContact() {
+    this._route.navigateByUrl('contact');
+  }
 }

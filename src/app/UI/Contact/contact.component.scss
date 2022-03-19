@@ -1,0 +1,42 @@
+@import '../../../app/SCSS/colors';
+
+.contact{
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.linkedin{
+  margin-top: 10px;
+  height: 55px;
+  width: 55px;
+
+}
+
+.mail{
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.github{
+  height: 70px;
+  width: 70px;
+}
+
+.slack{
+  margin-top: 5px;
+  height: 45px;
+  width: 45px;
+}
