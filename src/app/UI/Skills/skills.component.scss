@@ -3,15 +3,15 @@
 
 .container{
   width: 320px;
-  height: 780px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .skills{
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 320px;
-  height: 220px;
   font-family:heavy;
   padding-left: 10px;
   color : lighten($black-v0,60%);
@@ -19,12 +19,9 @@
   flex-direction: column;
   justify-content: center;
   line-height: 1.5;
+}
 
-}
-.tools{
-  margin-bottom: 20px;
-}
-.space{
+.text{
   margin-left: 10px;
   font-weight: 800;
   font-size :20px;
