@@ -19,7 +19,7 @@ export class AppComponent {
       'color: white'
     );
     console.log(
-      '%c Link to template https://www.behance.net/theabhaychopra',
+      '%c Link to template https://www.behance.net/gallery/120458785/User-Profile-UI',
       'color:green'
     );
   }
