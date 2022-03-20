@@ -22,7 +22,8 @@ export class DataService {
   education = [
     {
       class: 'B.Tech. (Computer Science)',
-      institute: 'Shri Govindram Institute of Technology and Science, Indore',
+      institute:
+        'Shri Govindram Seksaria Institute of Technology and Science, Indore',
       year: '2018-2022',
       grades: '7.38 (CGPA)',
     },
