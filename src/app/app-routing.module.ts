@@ -3,12 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 import {
   AboutComponent,
-  BlogsComponent,
   ContactComponent,
   ProjectsComponent,
   SkillsComponent,
-  PathComponent,
-  RefreshComponent,
   EducationComponent,
   ExperienceComponent,
 } from './UI';
@@ -39,20 +36,13 @@ const routes: Routes = [
     component: ExperienceComponent,
   },
   {
-    path: 'blogs',
-    component: BlogsComponent,
-  },
-  {
     path: 'contact',
     component: ContactComponent,
   },
-  {
-    path: 'refresh',
-    component: RefreshComponent,
-  },
+
   {
     path: '**',
-    component: PathComponent,
+    component: AboutComponent,
   },
 ];
 
