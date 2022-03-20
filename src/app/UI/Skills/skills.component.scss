@@ -1,0 +1,32 @@
+@import '../../SCSS/Fonts/fonts';
+@import '../../SCSS/colors';
+
+.container{
+  width: 320px;
+  height: 780px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills{
+  width: 320px;
+  height: 220px;
+  font-family:heavy;
+  padding-left: 10px;
+  color : lighten($black-v0,60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+
+}
+.tools{
+  margin-bottom: 20px;
+}
+.space{
+  margin-left: 10px;
+  font-weight: 800;
+  font-size :20px;
+  color:lighten($black-v4,20%);
+}

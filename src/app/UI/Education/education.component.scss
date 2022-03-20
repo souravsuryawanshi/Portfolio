@@ -1,7 +1,28 @@
+@import '../../SCSS/Fonts/fonts';
+@import '../../SCSS/colors';
 
+.container{
+  width: 320px;
+  height: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+}
 
+.text{
+  margin-left:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size :20px;
+  color:lighten($black-v4,20%);
+}
 .education{
-  width: 350px;
-  height: 500px;
-  background-color: red;
+  width: 320px;
+  height: 100px;
+  font-family:heavy;
+  padding-left: 10px;
+  margin-top: 20px;
+  color : lighten($black-v0,60%);
 }

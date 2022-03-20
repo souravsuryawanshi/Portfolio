@@ -6,6 +6,11 @@
     </app-links>
 
     <div *ngIf=toggle class="pages">
+      <app-links
+      (out)="navigateToProfile()">
+       Profile
+     </app-links>
+
       <app-links  (out)="navigateToEducation()">
         Education
       </app-links>
@@ -21,9 +26,9 @@
       <app-links  (out)="navigateToContact()">
         Contact Details
       </app-links>
-      <app-links>
+      <!-- <app-links>
         Theme Switch
-        </app-links>
+        </app-links> -->
     </div>
 
     <div>
