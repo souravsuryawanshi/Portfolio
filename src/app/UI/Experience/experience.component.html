@@ -1,0 +1,14 @@
+<div class="container">
+  <div style="font-size: 20px;" class="text">Work Experience:</div><br>
+  <div *ngFor="let item of experience" class="text">
+    {{item.company}}
+
+    <div class="cards">
+      {{item.role}}<br>
+      {{item.duration}}
+      <div class="tech">
+        <div *ngFor="let i of item.worked_on" >{{i}}</div>
+      </div>
+    </div>
+  </div>
+</div>

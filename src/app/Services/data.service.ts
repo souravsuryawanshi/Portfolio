@@ -43,9 +43,25 @@ export class DataService {
 
   projects = [
     {
-      name: '',
-      description: '',
-      link: '',
+      title: 'SmartBrain',
+      tech: ['React.js', 'Node', 'Express.js', 'PostgreSQL'],
+      image: '../../assets/asset/chat_circle_bubble_message_icon_149512.png',
+      url: '#',
+    },
+    {
+      title: 'Portfolio',
+      tech: ['Angular', 'Node'],
+      image: '../../assets/asset/instagram_logo_icon_186929.png',
+      url: '#',
+    },
+  ];
+
+  experience = [
+    {
+      company: 'Airtel Africa Digital Labs',
+      duration: 'Jan 2021 - Present',
+      role: 'Frontend Developer Intern',
+      worked_on: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Angular'],
     },
   ];
 
@@ -60,7 +76,7 @@ export class DataService {
       'Computer Networks',
     ],
 
-    tools: [
+    web: [
       'HTML5',
       'CSS3',
       'Angular',

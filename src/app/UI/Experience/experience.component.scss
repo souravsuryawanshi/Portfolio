@@ -1,0 +1,36 @@
+@import '../../SCSS/Fonts/fonts';
+@import '../../SCSS/colors';
+
+.container{
+  width: 320px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  margin-left: 10px;
+  font-weight: 800;
+  font-size :17px;
+  color:lighten($black-v4,20%);
+}
+.cards{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 320px;
+  color : lighten($black-v0,60%);
+  display: flex;
+  font-weight: 100;
+  font-size: 16px;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+}
+.tech{
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-family: regular;
+}
+

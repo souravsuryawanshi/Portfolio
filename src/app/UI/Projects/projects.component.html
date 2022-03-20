@@ -1,1 +1,9 @@
-<aside></aside>
+<div class="container">
+   <div *ngFor="let item of projects" class="text">
+     {{item.title}}:
+     <div class="cards">
+       <a [href]="item.url"><img [src]="item.image"></a>
+      <div *ngFor="let i of item.tech">{{i}}</div>
+     </div>
+   </div>
+</div>
