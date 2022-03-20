@@ -12,5 +12,15 @@ export class AppComponent {
 
   ngOnInit() {
     // this._route.navigateByUrl('');
+    console.log('%c|| Made by an Indian ||', 'color:red; font-size:18px;');
+    console.log('%c Sourav Suryawanshi', 'color:orange;');
+    console.log(
+      '%c This template is inspired by a UI design on Behance by Abhay Chopra',
+      'color: white'
+    );
+    console.log(
+      '%c Link to template https://www.behance.net/theabhaychopra',
+      'color:green'
+    );
   }
 }
