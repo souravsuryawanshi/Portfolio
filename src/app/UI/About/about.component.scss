@@ -1,11 +1,13 @@
 @import '../../SCSS/colors';
 .about{
-  margin-top: 30px;
+  margin-top: 110px;
+  margin-bottom: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // background-color: red;
 }
 
 .img-frame{

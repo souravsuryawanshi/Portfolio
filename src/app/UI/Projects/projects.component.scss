@@ -2,16 +2,22 @@
 @import '../../SCSS/colors';
 
 .container{
+  // background-color: green;
   width: 320px;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width:100%;
+  align-items: center;
 }
 
 .text{
   margin-left: 10px;
   font-weight: 800;
-  font-size :20px;
+  font-size :18px;
   color:lighten($black-v4,20%);
 }
 .cards{

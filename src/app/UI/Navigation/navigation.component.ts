@@ -24,6 +24,7 @@ export class NavigationComponent {
       .then(() => {
         this._route.navigateByUrl('');
       });
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
     // this._route.navigateByUrl('');
     // this.toggle = false;
   }
@@ -32,35 +33,45 @@ export class NavigationComponent {
     this._route.navigateByUrl('');
     this._serve.setClicked();
     // this.toggle = false;
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   }
   navigateToEducation() {
     this._route.navigateByUrl('education');
     this._serve.setClicked();
     // this.toggle = false;
+    document
+      .getElementById('education')
+      ?.scrollIntoView({ behavior: 'smooth' });
   }
 
   navigateToProjects() {
     this._route.navigateByUrl('projects');
     this._serve.setClicked();
     // this.toggle = false;
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
   }
 
   navigateToExperience() {
     this._route.navigateByUrl('experience');
     this._serve.setClicked();
     // this.toggle = false;
+    document
+      .getElementById('experience')
+      ?.scrollIntoView({ behavior: 'smooth' });
   }
 
   navigateToSkills() {
     this._route.navigateByUrl('skills');
     this._serve.setClicked();
     // this.toggle = false;
+    document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
   }
 
   navigateToContact() {
     this._route.navigateByUrl('contact');
     this._serve.setClicked();
     // this.toggle = false;
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   }
 
   onBurgerClick() {
