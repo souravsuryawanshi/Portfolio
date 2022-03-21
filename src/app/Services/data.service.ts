@@ -15,6 +15,11 @@ export class DataService {
     this.status.next(true);
   }
 
+  hidePage() {
+    localStorage.setItem('clicked', 'no');
+    this.status.next(false);
+  }
+
   getClickStatus() {
     return localStorage.getItem('clicked') === 'yes';
   } //till here

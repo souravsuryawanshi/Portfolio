@@ -19,12 +19,16 @@ export class NavigationComponent {
     this.toggle = this._serve.getClickStatus();
   }
   navigateToHome() {
+    if (localStorage.getItem('clicked') === 'yes') {
+      this._serve.hidePage();
+    }
     this._route
       .navigateByUrl('refresh', { skipLocationChange: true })
       .then(() => {
         this._route.navigateByUrl('');
       });
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+
     // this._route.navigateByUrl('');
     // this.toggle = false;
   }
