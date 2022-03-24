@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataService } from './Services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'portfolio';
-  constructor(private _route: Router) {}
+  constructor(private _route: Router, private _serve: DataService) {}
 
   ngOnInit() {
     // this._route.navigateByUrl('');
@@ -18,9 +19,14 @@ export class AppComponent {
       '%c This template is inspired by a UI design on Behance by Abhay Chopra',
       'color: white'
     );
+
     console.log(
       '%c Link to template https://www.behance.net/gallery/120458785/User-Profile-UI',
       'color:green'
     );
+  }
+
+  onClickHandler() {
+    this._serve.hidePage();
   }
 }
