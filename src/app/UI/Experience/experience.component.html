@@ -1,13 +1,18 @@
 <div class="container">
-  <div style="font-size: 20px;" class="text">Work Experience:</div><br>
+  <div style="font-size: 20px;  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #f2c210;
+  border-radius: 5px;" class="text">Work Experience:</div><br>
   <div *ngFor="let item of experience" class="text">
-    {{item.company}}
+   <li>{{item.company}}</li>
 
     <div class="cards">
       {{item.role}}<br>
       {{item.duration}}
       <div class="tech">
-        <div *ngFor="let i of item.worked_on" ><li>{{i}}</li></div>
+        <div *ngFor="let i of item.worked_on" ><li class="square">{{i}}</li></div>
       </div>
     </div>
   </div>

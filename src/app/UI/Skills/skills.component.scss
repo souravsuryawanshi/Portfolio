@@ -3,7 +3,7 @@
 
 .container{
   background-color: white;
-  width: 320px;
+  width: 100%;
   margin-top: 90px;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,10 @@
   flex-direction: column;
   justify-content: center;
   line-height: 1.5;
+}
+
+.square{
+  list-style-type: square;
 }
 
 .text{

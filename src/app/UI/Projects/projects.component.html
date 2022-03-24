@@ -1,10 +1,15 @@
 <div class="container">
-  <div class="text" style="font-size:20px;font-weight:800;margin-bottom: 30px;">Projects:</div>
+  <div class="text" style="font-size:20px;font-weight:800;margin-bottom: 30px;   padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fb56c1;
+  border-radius: 5px;">Projects:</div>
    <div *ngFor="let item of projects" class="text">
-     {{item.title}}:
+    <li> {{item.title}}: </li>
      <div class="cards">
        <a [href]="item.url"><img [src]="item.image"></a>
-      <div *ngFor="let i of item.tech">{{i}}</div>
+      <div *ngFor="let i of item.tech"><li class="square">{{i}}</li></div>
      </div>
    </div>
 </div>

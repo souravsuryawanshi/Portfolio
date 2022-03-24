@@ -33,13 +33,13 @@ export class DataService {
       grades: '7.38 (CGPA)',
     },
     {
-      class: '12th',
+      class: 'Higher Secondary',
       institute: 'School for Excellence, Dewas',
       year: '2017-2018',
       grades: '91.80%',
     },
     {
-      class: '10th',
+      class: 'High School',
       institute: 'School for Excellence, Dewas',
       year: '2015-2016',
       grades: '95.50%',

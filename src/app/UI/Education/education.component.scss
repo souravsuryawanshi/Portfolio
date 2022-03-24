@@ -15,6 +15,14 @@
 }
 
 .text{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid turquoise;
+  border-radius: 5px;
+
   margin-left:10px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -24,6 +32,14 @@
 }
 .education{
   width: 320px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
   font-family:heavy;
   padding-left: 10px;
   margin-top: 20px;

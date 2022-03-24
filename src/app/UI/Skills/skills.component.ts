@@ -8,6 +8,7 @@ import { DataService } from 'src/app/Services/data.service';
 })
 export class SkillsComponent {
   skills: any;
+  arrow: string = ' ->';
 
   constructor(private _serve: DataService) {}
 
