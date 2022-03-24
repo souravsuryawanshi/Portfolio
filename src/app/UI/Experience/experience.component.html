@@ -9,10 +9,10 @@
    <li>{{item.company}}</li>
 
     <div class="cards">
-      {{item.role}}<br>
-      {{item.duration}}
+      <li class="square">{{item.role}}</li>
+      <li class="square">{{item.duration}}</li>
       <div class="tech">
-        <div *ngFor="let i of item.worked_on" ><li class="square">{{i}}</li></div>
+        <!-- <div *ngFor="let i of item.worked_on" ><li class="square">{{i}}</li></div> -->
       </div>
     </div>
   </div>
