@@ -2,20 +2,18 @@
 @import '../../SCSS/colors';
 
 .container{
-  // background-color: orange;
-  // width: 320px;
+
   margin-top: 100px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  width:100%;
   align-items: center;
+  width:100%;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
 .text{
-
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -30,19 +28,25 @@
   font-size :20px;
   color:lighten($black-v4,20%);
 }
+
+.square{
+  list-style-type: square;
+}
+
 .education{
   width: 320px;
 
-  width: 100%;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   padding-left: 10px;
   padding-right: 10px;
 
   font-family:heavy;
   padding-left: 10px;
   margin-top: 20px;
+  margin-bottom: 10px;
   color : lighten($black-v0,60%);
-  line-height: 1.5;
+  line-height: 1.8;
 }
