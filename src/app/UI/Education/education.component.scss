@@ -34,17 +34,17 @@
 }
 
 .education{
-  width: 320px;
-
+  // width: 320px;
+  width:100%;
 
   display: flex;
   flex-direction: column;
-  // align-items: center;
-  padding-left: 10px;
+
+
   padding-right: 10px;
 
   font-family:heavy;
-  padding-left: 10px;
+  padding-left: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
   color : lighten($black-v0,60%);
